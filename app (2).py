@@ -23,7 +23,7 @@ menu = st.sidebar.radio(
 # ---------------- LOAD DATA ----------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("loan_approval_dataset.csv")
+    df = pd.read_csv("loan_approval_dataset (1).csv")
     df.columns = df.columns.str.strip()
     return df
 
